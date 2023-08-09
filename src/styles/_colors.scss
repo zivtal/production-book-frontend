@@ -1,0 +1,100 @@
+$primary: (
+  100: #eaeaf1,
+  200: #c3c3ec,
+  300: #babaf8,
+  400: #1919ce,
+  500: #0000bb,
+  600: #000094,
+  700: #010179,
+  800: #010160,
+  900: #010143,
+);
+
+$mono: (
+  100: #ffffff,
+  200: #fcfcfd,
+  300: #ececec,
+  400: #b9b9b9,
+  500: #949393,
+  600: #858585,
+  700: #3f3f3f,
+  800: #2f2d2d,
+  900: #1a1a1a,
+);
+
+$mono-opacity: (
+  100: rgba(245, 245, 245, 0.9),
+  200: rgba(245, 245, 245, 0.8),
+  300: rgba(245, 245, 245, 0.7),
+  400: rgba(245, 245, 245, 0.6),
+  500: rgba(245, 245, 245, 0.5),
+  600: rgba(245, 245, 245, 0.4),
+  700: rgba(245, 245, 245, 0.3),
+  800: rgba(245, 245, 245, 0.2),
+  900: rgba(245, 245, 245, 0.1),
+);
+
+$green: (
+  100: #b6d7a6,
+  200: #a1e396,
+  300: #96e78a,
+  400: #88e57a,
+  500: #72de62,
+  600: #65e352,
+  700: #4ede38,
+  800: #37bd20,
+  900: #2aa415,
+);
+
+$yellow: (
+  100: #dad3ae,
+  200: #ded295,
+  300: #f7e483,
+  400: #f6d874,
+  500: #f4cf56,
+  600: #efc845,
+  700: #d09134,
+  800: #ee9e27,
+  900: #f19233,
+);
+
+$red: (
+  100: #fde6d4,
+  200: #fbc7ab,
+  300: #f39f7f,
+  400: #e7795e,
+  500: #d82d2d,
+  600: #b90820,
+  700: #9b161c,
+  800: #7d0e1b,
+  900: #67081b,
+);
+
+$colors: (
+  'mono': $mono,
+  'mono-opacity': $mono-opacity,
+  'primary': $primary,
+  'green': $green,
+  'yellow': $yellow,
+  'red': $red,
+);
+
+:root {
+  @each $category, $colorMap in $colors {
+    @each $measure, $color in $colorMap {
+      --color-#{$category}-#{$measure}: #{$color};
+    }
+  }
+}
+
+@each $category, $colorMap in $colors {
+  @each $measure, $color in $colorMap {
+    .c-#{$category}-#{$measure} {
+      color: var(--color-#{$category}-#{$measure});
+    }
+
+    .bg-#{$category}-#{$measure} {
+      background: var(--color-#{$category}-#{$measure});
+    }
+  }
+}

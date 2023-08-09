@@ -1,0 +1,87 @@
+@import 'margin.css';
+@import 'padding.css';
+@import 'flex.css';
+@import 'accessibility.css';
+
+.fill-width {
+  width: 100% !important;
+}
+
+.clickable {
+  cursor: pointer;
+  user-select: none;
+}
+
+.vz-pointer {
+  cursor: pointer;
+}
+
+.skeleton {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.5) 20%, transparent 80%);
+    background-repeat: no-repeat;
+    background-size: 35% 100%;
+    background-position: 0 0;
+    animation: skeletonOverlay 2s linear infinite;
+  }
+
+  @keyframes skeletonOverlay {
+    0% {
+      background-position: -100% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+}
+
+.ltr {
+  direction: ltr;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: pre;
+}
+
+.fit-content {
+  width: fit-content;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.absolute {
+  position: absolute !important;
+}
+
+.relative {
+  position: relative !important;
+}
+
+.sticky {
+  position: sticky !important;
+}
+
+.sticky-top {
+  top: 0;
+  position: sticky !important;
+}

@@ -1,0 +1,85 @@
+$font_sizes: 8, 10, 12, 14, 16, 18, 20, 22, 24, 32, 36, 42, 48;
+
+$font_weights: (
+  'slim': 300,
+  'regular': 400,
+  'medium': 500,
+  'semibold': 600,
+  'bold': 700,
+  'extrabold': 900,
+);
+
+$line_heights: 16, 20, 22, 24;
+
+html {
+  font-size: 16px;
+}
+
+:root {
+  --base-scale: 1;
+
+  @each $font_size in $font_sizes {
+    --font-size-#{$font_size}: calc(var(--base-scale) * #{$font_size}px);
+  }
+
+  @each $key, $value in $font_weights {
+    --font-weight-#{$key}: #{$value};
+  }
+
+  @each $line_height in $line_heights {
+    --line-height-#{$line_height}: calc(var(--base-scale) * #{$line_height}px);
+  }
+}
+
+.vz-title-h1 {
+  color: var(--color-mono-800);
+  font-size: var(--font-size-22);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-24);
+}
+
+.vz-title-h2 {
+  color: var(--color-mono-800);
+  font-size: var(--font-size-20);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-22);
+}
+
+.vz-title-h3 {
+  color: var(--color-mono-800);
+  font-size: var(--font-size-18);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-20);
+}
+
+.vz-subtitle-1 {
+  color: var(--color-mono-800);
+  font-size: var(--font-size-12);
+}
+
+.vz-subtitle-2 {
+  color: var(--color-mono-800);
+  font-size: var(--font-size-10);
+}
+
+.vz-value-1 {
+  color: var(--color-mono-600);
+}
+
+@mixin font-weight-classes {
+  @each $key, $value in $font_weights {
+    .vz-font-weight-#{$value} {
+      font-weight: $value !important;
+    }
+  }
+}
+@include font-weight-classes;
+
+@mixin font-size-classes {
+  @each $size in $font_sizes {
+    .vz-font-size-#{$size} {
+      font-size: $size + px !important;
+    }
+  }
+}
+@include font-size-classes;

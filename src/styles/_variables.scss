@@ -1,0 +1,19 @@
+:root {
+  --header-height: 4rem;
+  --footer-height: 5rem;
+
+  --max-width: 1366px;
+
+  --safe-area-top: 2rem;
+  --safe-area-bottom: 3rem;
+  --safe-area-x: 1rem;
+
+  --color-background-1: var(--color-mono-100);
+  --color-background-2: var(--color-mono-200);
+
+  --shadow-level-1: 0 1px 2px #00000033;
+  --shadow-level-2: 0 1px 4px #00000014;
+
+  --border-radius-1: 0.25rem;
+  --border-radius-2: 0.5rem;
+}

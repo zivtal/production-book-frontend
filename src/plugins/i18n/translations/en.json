@@ -1,0 +1,234 @@
+{
+  "NOTIFICATION": {
+    "STATUS_CONVERSATION": "Hi, Im interesting in your job offer",
+    "CONVERSATION_MESSAGE": "New Massage about Job Offer From33",
+    "NEW_CONVERSATION": "New Massage about Job Offer From22",
+    "NEW_JOB_OFFER": "New Massage about Job Offer From11",
+    "ALL": "All",
+    "UNREAD": "Unread",
+    "READ": "Read"
+  },
+  "MENU": {
+    "HOME": "Production Book",
+    "SEARCH": "Search",
+    "JOB-MANAGER": "Manager",
+    "JOB-OFFER": "Freelance",
+    "MESSENGER": "Messenger",
+    "CALENDAR": "Calendar",
+    "NOTIFICATIONS": "Notifications",
+    "UPCOMING-EVENTS": "Upcoming events"
+  },
+  "AUTH": {
+    "SIGN_UP": "Sign up",
+    "SIGN_IN": "Sign in",
+    "OR": "or",
+    "PASSWORD": "Password",
+    "NEW_PASSWORD": "Enter new password",
+    "REENTER_PASSWORD": "Reenter password",
+    "SEND_MAIL": "Send verification",
+    "CHANGE_PASSWORD": "Change password",
+    "LOGIN_TO_YOUR_ACCOUNT": "Log in to your account",
+    "PASSWORD_RECOVERY": "Password recovery",
+    "CUSTOMER_EXPERIENCE": "Log in to your account so you can continue using our customer experience.",
+    "REMEMBER_ME": "Remember me",
+    "FORGOT_PASSWORD": "Forgot password?",
+    "VERIFICATION_CODE": "Verification code",
+    "VERIFICATION_MAIL_SENT": "Verification code sent by mail",
+    "RESEND_VALIDATION_CODE": "Resend validation code",
+    "LOGIN_FAILED": "Login failed",
+    "SIGNUP_FAILED": "Signup failed",
+    "LOGOUT_FAILED": "Logout failed",
+    "EMAIL_WAS_NOT_SENT": "Email was not sent",
+    "ALREADY_EXISTS": "Account already exists",
+    "NOT_EXISTS": "Account not exists",
+    "UNAUTHORIZED": "Unauthorized",
+    "CHANGE_PASSWORD_FAILED": "Change password was failed",
+    "EXPIRED": "Expired"
+  },
+  "LOBBY": {
+    "DONT_HAVE_AN_ACCOUNT_YET": "Don't have an account yet?",
+    "REGISTER_IN_FEW_EASY_STEPS": "Register in few easy steps and experience our services quickly."
+  },
+  "IDENTITY_CARD": {
+    "TABS": {
+      "ABOUT": "About",
+      "PORTFOLIO": "Portfolio",
+      "REVIEWS": "Reviews"
+    },
+    "EMPLOYEE_PROFILE": "Employee profile",
+    "UPDATED": "Updated",
+    "COVER": "Cover",
+    "DAILY_WAGE": "Daily wage",
+    "HOURLY_WAGE": "Hourly wage",
+    "MEMBER_SINCE": "Member since",
+    "GENERAL_INFO": "General info",
+    "GENDER": "Gender",
+    "AGE": "Age",
+    "BIRTHDAY": "Birthday",
+    "LANGUAGES": "Languages",
+    "REVIEWS": "Reviews",
+    "ATTITUDE": "Attitude",
+    "RELIABILITY": "Reliability",
+    "CRAFTSMANSHIP": "Craftsmanship",
+    "COMMUNICATION": "Communication",
+    "ALBUM": {
+      "COVER": "Cover",
+      "ADD": "Add album",
+      "REMOVE": "Remove album",
+      "NAME": "Album name",
+      "DESCRIPTION": "Album description",
+      "PHOTO": "Photo",
+      "VIDEO": "Video",
+      "ADD_PHOTO": "Add photo",
+      "ADD_VIDEO": "Add video",
+      "ASSET": {
+        "TITLE": "Asset title",
+        "DESCRIPTION": "Asset description",
+        "TYPE": "Asset type",
+        "URL": "URL"
+      },
+      "ASSETS_TYPE": {
+        "PHOTO": "Photos",
+        "VIDEO": "Videos",
+        "YOUTUBE": "Youtube",
+        "VIMEO": "Vimeo"
+      },
+      "DELETE_ALBUM_CONFIRM": "Are you sure you want to delete this album?",
+      "PHOTO_UPLOAD_FAILED": "Upload photo(s) failed"
+    },
+    "REVIEW": {
+      "ADD": "Add review",
+      "EDIT": "Edit review"
+    },
+    "IMPERSONATE": "Impersonate",
+    "STOP_IMPERSONATE": "Stop impersonate",
+    "SELECT_EMPLOYEE_TO_SEE_DETAILS": "Select employee to see details",
+    "EXCHANGE_UPDATED_AT": "Exchange rate updated at <value>"
+  },
+  "JOB": {
+    "UPDATED": "Updated",
+    "POSITION_REQUIREMENTS": "Position requirements",
+    "PRICE_OFFER": "Price offer",
+    "PRICE_OFFER_MISSING": "Price offer missing",
+    "CANCELLATION_REQUEST": "Cancellation request",
+    "CANCEL_REQUEST": "Approve cancellation request"
+  },
+  "JOB_MANAGER": {
+    "POST_JOB_MANAGEMENT": "Post job management",
+    "NO_INTERESTED_YET": "There are no interested parties yet",
+    "POST_JOB": "Post job",
+    "POSITIONS": "Positions",
+    "AMOUNT": "Amount",
+    "INTERESTING": "Interesting",
+    "PENDING": "Pending",
+    "LEFT": "Left",
+    "JOB_TITLE": "Title",
+    "JOB_CLASSIFICATION": "Job classification",
+    "PARTICIPANTS": "Participants",
+    "CREATE_JOB_POST_MODAL": {
+      "TITLE": {
+        "CREATE": "Create new job post",
+        "UPDATE": "Update job post"
+      },
+      "PROJECT_NAME": "Project name",
+      "POSITIONS": "Positions",
+      "ADD_POSITION": "Add position",
+      "POSITION_AMOUNT": "Amount",
+      "POSITION_COMMENT": "Comment",
+      "DESCRIPTION": "Description",
+      "DATE": "Date",
+      "DATE_FROM": "From",
+      "DATE_TO": "Until",
+      "TIME_FROM": "From",
+      "TIME_TO": "Until",
+      "LOCATION": "Location",
+      "MAX_DISTANCE": "Max distance"
+    },
+    "STATUS": {
+      "REJECTED": "Rejected",
+      "OWNER_ACCEPT": "Pending for approval",
+      "OWNER_REJECT": "Rejected",
+      "FREELANCER_ACCEPT": "Approved",
+      "FREELANCER_INTERESTING": "Interesting",
+      "FREELANCER_LEFT": "Left",
+      "FREELANCER_REJECT": "Rejected",
+      "CANCELLATION": "Cancellation"
+    },
+    "UNFILLED": "Unfilled",
+    "TEAM": "Team"
+  },
+  "JOB_OFFER": {
+    "JOB_OFFERS": "Job offers",
+    "OPEN_OFFERS": "Open offers",
+    "JOB_CLASSIFICATION": "Job classification",
+    "REQUIRED_SKILLS": "Required skills",
+    "PLACE_OFFER_CONFIRM": "Are you sure you want to place offer?",
+    "UPDATED_OFFER_CONFIRM": "Are you sure you want to change offer?",
+    "PLACE_OFFER": "Place offer",
+    "CANCEL_OFFER": "Cancel",
+    "UPDATE_OFFER": "Update",
+    "REQUIREMENTS": "Requirements",
+    "MAX_DISTANCE": "Max distance",
+    "CONVERSATION": "Conversation",
+    "STATUS": {
+      "OWNER_ACCEPT": "Offer approved",
+      "OWNER_REJECT": "Rejected",
+      "FREELANCER_ACCEPT": "Approved",
+      "FREELANCER_INTERESTING": "Waiting to approval",
+      "FREELANCER_LEFT": "Left",
+      "FREELANCER_REJECT": "Rejected",
+      "CANCELLATION": "Cancellation"
+    }
+  },
+  "CALENDAR": {
+    "SELECT_DAY": "Select day",
+    "NEXT_MONTH": "Next month",
+    "PREVIOUS_MONTH": "Previous month",
+    "DAY": {
+      "SUN": "Sunday",
+      "MON": "Monday",
+      "TUE": "Thursday",
+      "WED": "Wednesday",
+      "THU": "Thursday",
+      "FRI": "Friday",
+      "SAT": "Saturday"
+    },
+    "SHORT_DAY": {
+      "SUN": "Sun",
+      "MON": "Mon",
+      "TUE": "Thu",
+      "WED": "Wed",
+      "THU": "Thu",
+      "FRI": "Fri",
+      "SAT": "Sat"
+    },
+    "FULL_MONTH": {
+      "JAN": "January",
+      "FEB": "February",
+      "MAR": "March",
+      "APR": "April",
+      "MAY": "May",
+      "JUN": "June",
+      "JUL": "July",
+      "AUG": "August",
+      "SEP": "September",
+      "OCT": "October",
+      "NOV": "November",
+      "DEC": "December"
+    },
+    "UPCOMING_EVENTS": "Upcoming events",
+    "PRESS_TO_NAVIGATE": "Press to navigate"
+  },
+  "MESSENGER": {
+    "TITLE": "Messenger"
+  },
+  "INSTALL_APP_MODAL": {
+    "BUTTON_INSTALL": "Install App",
+    "BUTTON_OPEN": "Open In App",
+    "INSTALL_TITLE": "For best experience, please install app now.",
+    "OPEN_TITLE": "Please open an app",
+    "INFO_TITLE_IOS": "This site has the functionality of the application. Add it to your home screen to use it in full screen mode and also without internet access.",
+    "INFO_TITLE_IOS_STEP_1": "1) Click on \"Share\" on the menu bar below.",
+    "INFO_TITLE_IOS_STEP_2": "2) Tap \"Go to Home Screen\"."
+  }
+}

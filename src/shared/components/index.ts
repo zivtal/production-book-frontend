@@ -1,0 +1,64 @@
+import { type App } from 'vue';
+import ButtonComponent from '@/shared/components/buttons/vz-button.vue';
+import AvatarComponent from '@/shared/components/vz-avatar.vue';
+import RateComponent from '@/shared/components/fields/vz-star-rating.vue';
+import SvgIconComponent from '@/shared/components/icon/vz-icon.vue';
+import OverlayComponent from '@/shared/components/overlay/vz-overlay.vue';
+import SpinnerLoaderComponent from '@/shared/components/loaders/vz-spinner.vue';
+import ImageComponent from '@/shared/components/vz-image.vue';
+import StepperComponent from '@/shared/components/stepper/vz-stepper.vue';
+import TextareaComponent from '@/shared/components/fields/vz-textarea.vue';
+import CheckboxComponent from '@/shared/components/fields/vz-checkbox.vue';
+import DataTableComponent from '@/shared/components/tables/vz-data-table.vue';
+import PopoverMenu from '@/shared/components/menus/vz-popover-menu.vue';
+import ErrorAlert from '@/shared/components/vz-error-alert.vue';
+import Badge from '@/shared/components/badges/vz-badge.vue';
+import Card from '@/shared/components/vz-card.vue';
+import SearchPanel from '@/shared/components/fields/vz-search-panel.vue';
+import Collapse from '@/shared/components/vz-collapse.vue';
+import Calendar from '@/shared/components/calendar/vz-calendar.vue';
+import VzInput from '@/shared/components/fields/vz-input.vue';
+import VzDatepicker from '@/shared/components/fields/vz-datepicker.vue';
+import VzDivider from '@/shared/components/vz-divider.vue';
+import VzSelect from '@/shared/components/fields/vz-select/vz-select.vue';
+import VzContentSwitcher from '@/shared/components/content-switcher/vz-content-switcher.vue';
+import VzTabSwitcher from '@/shared/components/content-switcher/vz-tab-switcher.vue';
+import VzCardBadge from '@/shared/components/badges/vz-card-badge.vue';
+import VzInfinityScroll from '@/shared/components/infinity-scroll/vz-infinity-scroll.vue';
+import VzInstallApp from '@/shared/components/vz-install-app.vue';
+import VzMessenger from '@/shared/components/messenger/vz-messenger.vue';
+
+const vzComponents = {
+  install: (app: App<Element>) => {
+    app.component('VzInstallApp', VzInstallApp);
+    app.component('VzIcon', SvgIconComponent);
+    app.component('VzImage', ImageComponent);
+    app.component('VzSpinner', SpinnerLoaderComponent);
+    app.component('VzButton', ButtonComponent);
+    app.component('VzAvatar', AvatarComponent);
+    app.component('VzInput', VzInput);
+    app.component('VzSelect', VzSelect);
+    app.component('VzCheckbox', CheckboxComponent);
+    app.component('VzTextarea', TextareaComponent);
+    app.component('VzRate', RateComponent);
+    app.component('VzOverlay', OverlayComponent);
+    app.component('VzStepper', StepperComponent);
+    app.component('VzDataTable', DataTableComponent);
+    app.component('VzBadge', Badge);
+    app.component('VzPopoverMenu', PopoverMenu);
+    app.component('VzErrorAlert', ErrorAlert);
+    app.component('VzCard', Card);
+    app.component('VzSearchPanel', SearchPanel);
+    app.component('VzCollapse', Collapse);
+    app.component('VzCalendar', Calendar);
+    app.component('VzDatepicker', VzDatepicker);
+    app.component('VzDivider', VzDivider);
+    app.component('VzContentSwitcher', VzContentSwitcher);
+    app.component('VzTabSwitcher', VzTabSwitcher);
+    app.component('VzCardBadge', VzCardBadge);
+    app.component('VzInfinityScroll', VzInfinityScroll);
+    app.component('VzMessenger', VzMessenger);
+  },
+};
+
+export { vzComponents };

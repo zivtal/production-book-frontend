@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "strictPropertyInitialization": false,
+    "noImplicitAny": true,
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "useDefineForClassFields": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "types": ["webpack-env", "webpack", "cypress"],
+    "paths": {
+      "@/*": ["./src/*"],
+      "@json/*": ["./src/json/*"],
+      "@shared/*": ["./src/shared/*"],
+      "@style/*": ["./src/assets/styles/*"],
+      "@calendar/*": ["./src/views/calendar"],
+      "@employee/*": ["./src/views/employee"],
+      "@jobs/*": ["./src/views/jobs"],
+      "@lobby/*": ["./src/views/lobby"],
+      "@messenger/*": ["./src/views/messenger"]
+    },
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "tests/**/*.ts", "tests/**/*.tsx", "tests/e2e/support/index.d.ts"],
+  "exclude": ["node_modules(?!/vuex-composition-helpers)", "@vue/tsconfig/tsconfig.dom.json"]
+}

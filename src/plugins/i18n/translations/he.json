@@ -1,0 +1,234 @@
+{
+  "NOTIFICATION": {
+    "STATUS_CONVERSATION": "Hi, Im interesting in your job offer",
+    "CONVERSATION_MESSAGE": "New Massage about Job Offer From33",
+    "NEW_CONVERSATION": "New Massage about Job Offer From22",
+    "NEW_JOB_OFFER": "New Massage about Job Offer From11",
+    "ALL": "את כל",
+    "UNREAD": "לא נקרא",
+    "READ": "לקרוא"
+  },
+  "MENU": {
+    "HOME": "פרודקשיין בוק",
+    "SEARCH": "חיפוש",
+    "JOB-MANAGER": "ניהול צוות",
+    "JOB-OFFER": "פריילנס",
+    "MESSENGER": "הודעות",
+    "CALENDAR": "יומן",
+    "NOTIFICATIONS": "התראות",
+    "UPCOMING-EVENTS": "אירועים קרובים"
+  },
+  "AUTH": {
+    "SIGN_UP": "הרשמה",
+    "SIGN_IN": "התחבר",
+    "OR": "או",
+    "PASSWORD": "סיסמה",
+    "NEW_PASSWORD": "סיסמה חדשה",
+    "REENTER_PASSWORD": "הקש סיסמה בשנית",
+    "SEND_MAIL": "שלח קוד אימות",
+    "CHANGE_PASSWORD": "שינוי סיסמה",
+    "LOGIN_TO_YOUR_ACCOUNT": "התחבר לחשבון שלך",
+    "PASSWORD_RECOVERY": "שחזור סיסמה",
+    "CUSTOMER_EXPERIENCE": "היכנס לחשבון שלך כדי שתוכל להמשיך להשתמש בחוויית הלקוח שלנו.",
+    "REMEMBER_ME": "זכור אותי",
+    "FORGOT_PASSWORD": "שכחתי את הסיסמה",
+    "VERIFICATION_CODE": "שלח קוד אימות",
+    "VERIFICATION_MAIL_SENT": "שלח קוד אימות למייל",
+    "RESEND_VALIDATION_CODE": "שלח שוב קוד אימות",
+    "LOGIN_FAILED": "כניסה נכשלה",
+    "SIGNUP_FAILED": "הרשמה נכשלה",
+    "LOGOUT_FAILED": "התנתקות נכשלה",
+    "EMAIL_WAS_NOT_SENT": "שליחת מייל נכשלה",
+    "ALREADY_EXISTS": "חשבון קיים",
+    "NOT_EXISTS": "חשבון לא קיים",
+    "UNAUTHORIZED": "משתמש לא מאושר",
+    "CHANGE_PASSWORD_FAILED": "שינוי סיסמה נכשל",
+    "EXPIRED": "פג תוקף"
+  },
+  "LOBBY": {
+    "DONT_HAVE_AN_ACCOUNT_YET": "אין לך עדיין חשבון?",
+    "REGISTER_IN_FEW_EASY_STEPS": "הירשם בכמה צעדים פשוטים ותחווה את השירותים שלנו."
+  },
+  "IDENTITY_CARD": {
+    "TABS": {
+      "ABOUT": "אודות",
+      "PORTFOLIO": "תיק עבודות",
+      "REVIEWS": "ביקורות"
+    },
+    "EMPLOYEE_PROFILE": "פרופיל",
+    "UPDATED": "עדכון",
+    "COVER": "תמונת נושא",
+    "DAILY_WAGE": "עלות יומית",
+    "HOURLY_WAGE": "עלות שעתית",
+    "MEMBER_SINCE": "חבר מתאריך",
+    "GENERAL_INFO": "פרטים כללים",
+    "GENDER": "מין",
+    "AGE": "גיל",
+    "BIRTHDAY": "תאריך לידה",
+    "LANGUAGES": "שפות",
+    "REVIEWS": "ביקורות",
+    "ATTITUDE": "יחס",
+    "RELIABILITY": "מהימנות",
+    "CRAFTSMANSHIP": "אומנות",
+    "COMMUNICATION": "תקשורת",
+    "ALBUM": {
+      "COVER": "תמונת אלבום",
+      "ADD": "הוסף אלבום",
+      "REMOVE": "הסר אלבום",
+      "NAME": "שם אלבום",
+      "DESCRIPTION": "תיאור אלבום",
+      "PHOTO": "תמונה",
+      "VIDEO": "וידאו",
+      "ADD_PHOTO": "הוסף תמונה",
+      "ADD_VIDEO": "הוסף וידאו",
+      "ASSET": {
+        "TITLE": "כותרת",
+        "DESCRIPTION": "תיאור",
+        "TYPE": "סוג",
+        "URL": "קישור"
+      },
+      "ASSETS_TYPE": {
+        "PHOTO": "תמונות",
+        "VIDEO": "וידאו",
+        "YOUTUBE": "יוטיוב",
+        "VIMEO": "וימאו"
+      },
+      "DELETE_ALBUM_CONFIRM": "האם אתה בטוח שברצונך למחוק אלבום זה?",
+      "PHOTO_UPLOAD_FAILED": "עלאת תמונות נכשלה"
+    },
+    "REVIEW": {
+      "ADD": "הוסף ביקורת",
+      "EDIT": "ערוך ביקורת"
+    },
+    "IMPERSONATE": "התחזות",
+    "STOP_IMPERSONATE": "הפסק התחזות",
+    "SELECT_EMPLOYEE_TO_SEE_DETAILS": "בחר עובד על מנת לראות פרטים נוספים",
+    "EXCHANGE_UPDATED_AT": "שער חליפין עודכן ב- <value>"
+  },
+  "JOB": {
+    "UPDATED": "עודכן",
+    "POSITION_REQUIREMENTS": "דרישות משרה",
+    "PRICE_OFFER": "הצעת מחיר",
+    "PRICE_OFFER_MISSING": "לא צויין מחיר",
+    "CANCELLATION_REQUEST": "הגש בקשה לביטול",
+    "CANCEL_REQUEST": "אישור בקשה לביטול"
+  },
+  "JOB_MANAGER": {
+    "POST_JOB_MANAGEMENT": "ניהול הצעות עבודות",
+    "NO_INTERESTED_YET": "אין עדיין מתעניינים",
+    "POST_JOB": "הצעת עבודה",
+    "POSITIONS": "משרות",
+    "AMOUNT": "כמות",
+    "INTERESTING": "מעוניין",
+    "PENDING": "ממתין",
+    "LEFT": "עזב",
+    "JOB_TITLE": "שם",
+    "JOB_CLASSIFICATION": "סיווג",
+    "PARTICIPANTS": "משתתפים",
+    "CREATE_JOB_POST_MODAL": {
+      "TITLE": {
+        "CREATE": "יצירת הצעת עבודה חדשה",
+        "UPDATE": "עדכון הצעת עבודה"
+      },
+      "PROJECT_NAME": "שם",
+      "POSITIONS": "משרות",
+      "ADD_POSITION": "הוספת משרה",
+      "POSITION_AMOUNT": "כמות",
+      "POSITION_COMMENT": "הערות",
+      "DESCRIPTION": "תיאור",
+      "DATE": "תאריך",
+      "DATE_FROM": "מתאריך",
+      "DATE_TO": "עד תאריך",
+      "TIME_FROM": "משעה",
+      "TIME_TO": "עד שעה",
+      "LOCATION": "כתובת",
+      "MAX_DISTANCE": "מרחק מקסימלי"
+    },
+    "STATUS": {
+      "REJECTED": "נדחה",
+      "OWNER_ACCEPT": "ממתין לאישור",
+      "OWNER_REJECT": "נדחה",
+      "FREELANCER_ACCEPT": "אושר",
+      "FREELANCER_INTERESTING": "מתעניין",
+      "FREELANCER_LEFT": "עזב",
+      "FREELANCER_REJECT": "נדחה",
+      "CANCELLATION": "בקשת ביטול"
+    },
+    "UNFILLED": "פנויות",
+    "TEAM": "צוות"
+  },
+  "JOB_OFFER": {
+    "JOB_OFFERS": "חיפוש הצעות עבודה",
+    "OPEN_OFFERS": "הצעות פתוחות",
+    "JOB_CLASSIFICATION": "סיווג",
+    "REQUIRED_SKILLS": "דרישות תפקיד",
+    "PLACE_OFFER_CONFIRM": "האם אתה בטוח שאתה רוצה להגיש הצעה?",
+    "UPDATED_OFFER_CONFIRM": "האם אתה בטוח שאתה רוצה לשנות את ההצעה?",
+    "PLACE_OFFER": "הגש הצעה",
+    "CANCEL_OFFER": "בטל",
+    "UPDATE_OFFER": "עדכן",
+    "REQUIREMENTS": "דרישות",
+    "MAX_DISTANCE": "מרחק מקסימלי",
+    "CONVERSATION": "שיחה",
+    "STATUS": {
+      "OWNER_ACCEPT": "הצעה אושרה",
+      "OWNER_REJECT": "הצעה נדחתה",
+      "FREELANCER_ACCEPT": "אושר",
+      "FREELANCER_INTERESTING": "ממתין לאישור",
+      "FREELANCER_LEFT": "עזב",
+      "FREELANCER_REJECT": "דחית",
+      "CANCELLATION": "בקשת ביטול"
+    }
+  },
+  "CALENDAR": {
+    "SELECT_DAY": "בחירת יום",
+    "NEXT_MONTH": "חודש הבא",
+    "PREVIOUS_MONTH": "חודש קודם",
+    "DAY": {
+      "SUN": "יום ראשון",
+      "MON": "יום שני",
+      "TUE": "יום שלישי",
+      "WED": "יום רביעי",
+      "THU": "יום חמישי",
+      "FRI": "יום שישי",
+      "SAT": "יום שבת"
+    },
+    "SHORT_DAY": {
+      "SUN": "א'",
+      "MON": "ב'",
+      "TUE": "ג'",
+      "WED": "ד'",
+      "THU": "ה'",
+      "FRI": "ו'",
+      "SAT": "ש'"
+    },
+    "FULL_MONTH": {
+      "JAN": "ינואר",
+      "FEB": "פברואר",
+      "MAR": "מרץ",
+      "APR": "אפריל",
+      "MAY": "מאי",
+      "JUN": "יוני",
+      "JUL": "יולי",
+      "AUG": "אוגוסט",
+      "SEP": "ספטמבר",
+      "OCT": "אוקטובר",
+      "NOV": "נובמבר",
+      "DEC": "דצמבר"
+    },
+    "UPCOMING_EVENTS": "אירועים קרובים",
+    "PRESS_TO_NAVIGATE": "לחץ לניווט"
+  },
+  "MESSENGER": {
+    "TITLE": "Messenger"
+  },
+  "INSTALL_APP_MODAL": {
+    "BUTTON_INSTALL": "Install App",
+    "BUTTON_OPEN": "Open In App",
+    "INSTALL_TITLE": "For best experience. Please install app now.",
+    "OPEN_TITLE": "For best experience. Please install app now.",
+    "INFO_TITLE_IOS": "לאתר זה יש את הפונקציונליות של האפליקציה. הוסף אותו למסך הבית שלך כדי להשתמש בו במצב מסך מלא ולא מקוון.",
+    "INFO_TITLE_IOS_STEP_1": "1) לחץ על \"שתף\" בשורת התפריטים למטה.",
+    "INFO_TITLE_IOS_STEP_2": "2) הקש על \"עבור למסך הבית\"."
+  }
+}
